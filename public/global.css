@@ -1,0 +1,57 @@
+html {
+    font-size: 24px;
+}
+
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --color-main: #30A768;
+    --color-accent: #217448;
+    --color-action: #FFFFFF;
+    --color-heavy: #0e321f;
+}
+
+body {
+    margin:0;
+    padding:0;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--color-main);
+    color: var(--color-action);
+}
+
+h1,h2,h3,h4,h5,h5,h6 {
+    font-family: 'Life Savers', cursive;
+    font-weight: 800;
+}
+
+.container {
+    min-width:960px;
+    max-width:960px;
+    margin:0 auto;
+}
+
+@media screen and (max-width: 960px) {
+.container {
+    min-width:100%;
+    padding:0 1rem;
+}
+}
+
+input:required {
+    box-shadow: none;
+  }
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
