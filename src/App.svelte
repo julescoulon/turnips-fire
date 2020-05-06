@@ -9,7 +9,7 @@
   }
 
   import Navbar from "./components/Navbar.svelte";
-  import Todos from "./components/Todos.svelte";
+  import Prices from "./components/Prices.svelte";
 
   export let name;
   export let description;
@@ -31,6 +31,6 @@
     {:else}
       <h2>Bienvenue,</h2>
     {/if} -->
-    <Todos {...user} />
+    <Prices {...user} />
   </div>
 </main>

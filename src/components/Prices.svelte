@@ -1,5 +1,5 @@
 <script>
-  import TodoItem from "./TodoItem.svelte";
+  import PriceItem from "./PriceItem.svelte";
 
   import { db } from "../firebase";
   import { collectionData } from "rxfire/firestore";
@@ -190,7 +190,7 @@
     </thead>
     <tbody>
       {#each $prices as price}
-        <TodoItem {...price} />
+        <PriceItem {...price} />
       {:else}
         <tr>
           <td class="empty" colspan="4">
