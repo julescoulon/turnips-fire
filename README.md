@@ -16,7 +16,9 @@ Au départ, nous devions partir sur la création d’une application fonctionnan
 
 Préalables : NodeJS + NPM et cloner notre projet à l’adresse suivante :
 https://github.com/julescoulon/turnips-fire
+
 Commandes :
+
     npm install
     npm run dev
 
